@@ -13,3 +13,5 @@ Rock, Paper, Scissors is a game that you can play against the computer. Rock, Pa
 
 ## Challenges that I faced 
 The challenge that I faced during this project was JavaScript and knowing how to use it in the code. I never did javascript or used it, that was a challenge for this project and seeing the error. The error was a struggle for me and seeing how it was either the spelling. I see how javascript works when everything can be right but there is only one thing that wrong can change the whole website. 
+
+![image](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/004916d7-f475-4188-b8ce-0538f18b7ad4) 
