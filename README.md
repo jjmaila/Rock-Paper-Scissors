@@ -12,13 +12,13 @@ Rock, Paper, Scissors is a game that you can play against the computer. Rock, Pa
 ## Challenges that I faced 
 The challenge that I faced during this project was JavaScript and knowing how to use it in the code. I never did javascript or used it, that was a challenge for this project and seeing the error. The error was a struggle for me and seeing how it was either the spelling. I see how the javascript works when everything can be right but there is only one thing that can change the whole website. 
 
-![Alt text](image-1.png)
+![image](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/5506aa5b-fd80-4410-ba31-4aa0702ce0ba)
 
 ## technique that I used
 Colors:  #082c6c white  lightblue  blue  black  lightpink
-pictures: assets/image/paper.png 
-          assets/image/rock.png
-         assets/image/scissors.png 
 
+pictures: C:\Users\malen\Downloads\projects 1 to 4\assets\image\paper.png
+          C:\Users\malen\Downloads\projects 1 to 4\assets\image\rock.png
+          C:\Users\malen\Downloads\projects 1 to 4\assets\image\scissors.png
  
  
