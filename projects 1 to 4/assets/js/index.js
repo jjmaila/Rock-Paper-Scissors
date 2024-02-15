@@ -39,10 +39,10 @@ function rockButtonClick() {
     roundResultContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
   } else if (computerChoice === "rock") {
     console.log("user won this round");
-    roundResultContainter.innerHTML = "User won this round. Computer choice: Paper";
+    resultstringContainter.innerHTML = "User won this round. Computer choice: Paper";
   } else {
     console.log("It's a tie");
-    roundResultContainter.innerHTML = "It's a tie";
+    resultstringContainter.innerHTML = "It's a tie";
   }
 }
 
@@ -52,13 +52,13 @@ function paperButtonClick() {
   console.log(computerChoice);
   if (computerChoice === "scissors") {
     console.log("computer won this round");
-    roundResultContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
+    resultstringContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
   } else if (computerChoice === "paper") {
     console.log("user won this round");
     roundResultContainter.innerHTML = "User won this round. Computer choice: Rock";
   } else {
     console.log("It's a tie");
-    roundResultContainter.innerHTML = "It's a tie";
+    resultstringContainter.innerHTML = "It's a tie";
   }
 }
 
@@ -71,9 +71,9 @@ function scissorsButtonClick() {
     roundResultContainter.innerHTML = "Computer won this round. Computer choice: Paper";
   } else if (computerChoice === "scissors") {
     console.log("user won this round");
-    roundResultContainter.innerHTML = "User won this round. Computer choice: Rock";
+    resultstringContainter.innerHTML = "User won this round. Computer choice: Rock";
   } else {
     console.log("It's a tie");
-    roundResultContainter.innerHTML = "It's a tie";
+    resultstringContainter.innerHTML = "It's a tie";
   }
 }
