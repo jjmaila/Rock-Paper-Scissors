@@ -1,11 +1,10 @@
-
 console.log("Rock, Paper, Scissors!");
 console.log("Let's play!");
-var play = document.querySelector('.play-button');
-var Result = document.querySelector('.result-button');
+
+const roundResultContainter = document.querySelector('#resultstring');
 
 window.alert("Get ready to win!");
-const roundResultContainter = document.querySelector('#resultstring');
+
 const data = ["rock", "paper", "scissors"];
 console.log(data[0]);
 console.log(data[1]);
@@ -39,10 +38,10 @@ function rockButtonClick() {
     roundResultContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
   } else if (computerChoice === "rock") {
     console.log("user won this round");
-    resultstringContainter.innerHTML = "User won this round. Computer choice: Paper";
+    roundResultContainter.innerHTML = "User won this round. Computer choice: Paper";
   } else {
     console.log("It's a tie");
-    resultstringContainter.innerHTML = "It's a tie";
+    roundResultContainter.innerHTML = "It's a tie";
   }
 }
 
@@ -52,13 +51,13 @@ function paperButtonClick() {
   console.log(computerChoice);
   if (computerChoice === "scissors") {
     console.log("computer won this round");
-    resultstringContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
+    roundResultContainter.innerHTML = "Computer won this round. Computer choice: Scissors";
   } else if (computerChoice === "paper") {
     console.log("user won this round");
     roundResultContainter.innerHTML = "User won this round. Computer choice: Rock";
   } else {
     console.log("It's a tie");
-    resultstringContainter.innerHTML = "It's a tie";
+    roundResultContainter.innerHTML = "It's a tie";
   }
 }
 
@@ -71,9 +70,18 @@ function scissorsButtonClick() {
     roundResultContainter.innerHTML = "Computer won this round. Computer choice: Paper";
   } else if (computerChoice === "scissors") {
     console.log("user won this round");
-    resultstringContainter.innerHTML = "User won this round. Computer choice: Rock";
+    roundResultContainter.innerHTML = "User won this round. Computer choice: Rock";
   } else {
     console.log("It's a tie");
-    resultstringContainter.innerHTML = "It's a tie";
+    roundResultContainter.innerHTML = "It's a tie";
   }
 }
+
+function resultClick(winningChoice, losingChoice) {
+  console.log(`${winningChoice} wins against ${losingChoice}`);
+  let computerChoice = computerChoiceFunctionality();
+  console.log(computerChoice);
+  if (computerChoice === losingChoice) {
+    console.log("computer won this round");
+    roundResultContainter.innerHTML = `Computer won this round. Computer choice: ${losingChoice}`;
+  } }
