@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #082c6c;
+    color: white ;
+}
+
+h1{
+   text-align: center;
+   color: lightblue;
+}
+
+p{
+    text-align: center;
+    text-transform: lowercase;
+}
+
+
+.options{
+    display: flex; 
+    width: 150w;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.rock, .paper, .scissor{
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    background: blue;
+    outline: none;
+    border-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.play{
+    align-items: center;
+    padding: 0.8rem;
+    width: 50px;
+    border-radius: 50px;
+    outline: none;
+    border-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.reload{
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: lightpink;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    width: 150w;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
