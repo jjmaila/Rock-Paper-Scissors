@@ -16,10 +16,11 @@ The challenge i faced during this project was javascript and knowing how to use 
 ![Screenshot 2024-02-12 120636](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/1a998884-00a9-4f82-9bf1-925f5939c212)
 
 
-the technique that I used
+##the technique that I used
 Colours: #082c6c white lightblue blue black lightpink
 
-pictures:  ![image](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/f46be038-d78a-4cd9-8044-57599036c2bd)
+##pictures: 
+![image](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/f46be038-d78a-4cd9-8044-57599036c2bd)
 
 ![image](https://github.com/jjmaila/Rock-Paper-Scissors/assets/128652768/609bd7af-c9cd-4f52-9863-d9a73cdbaaca)
 
