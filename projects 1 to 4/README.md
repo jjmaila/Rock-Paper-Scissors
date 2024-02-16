@@ -1,5 +1,5 @@
 # ROCK, PAPER, SCISSORS
-Here is a link: https://jjmaila-rockpaperscisso-v528ml13swn.ws-eu108.gitpod.i
+Here is a link: [https://jjmaila-rockpaperscisso-v528ml13swn.ws-eu108.gitpod.i](https://5500-jjmaila-rockpaperscisso-v528ml13swn.ws-eu108.gitpod.io/projects%201%20to%204/index.html)
 
 # Project About
 This project is about a game of Rock, Paper, Scissors. Where you can play against the computer and you will be playing rock, paper, scissors. And I've used Javascript, HTML, and CSS for this project. This project Rock, Paper, Scissors is a game that you can play against the computer. Rock, Paper, Scissors is a classic two-person game. That you can enjoy.
