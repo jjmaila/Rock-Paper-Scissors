@@ -66,4 +66,15 @@ p{
     font-size: 1.2rem;
 }
 
+.button-container{
+    margin: auto;
+    padding: 0%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+}
+
 
