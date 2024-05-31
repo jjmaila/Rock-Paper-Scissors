@@ -1,61 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Papper, Scissors<Game</title>
-    <style>
-        img{
-            width: 50%;
-        }
-        div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
     <header>
-    <h1>Rock, Paper, Scissors</h1>
-    <p>Let's play, And Enjoy!</p>
-  </header>
-
-  <main>
-    <div id="gamediv">
-    <h1 class="gametext" id="computerText"></h1>
-    <div class="container">
-        <div class="button-container">
-            <img class="image1" src="assets/image/rock.png" alt="Rock" width="100" height="100">
-            <button id="rock-button">Rock</button>
-            
-        </div>
-        
-        <div class="button-container">
-            <img class="image2" src="assets/image/paper.png" alt="Paper" width="100" height="100">
-            <button id="paper-button">Paper</button>
-            
-        </div>
-
-        <div class="button-container">
-            <img class="image3" src="assets/image/scissors.png " alt="scissors" width="100" height="100"> 
-            <button id="scissors-button">Scissors</button> 
-            
-        </div>
-
-    <div class="play">
-        <button id="play-button">play</button>
+      <h1>Rock, Paper, Scissors</h1>
+      <p>let's play, and enjoy!</p>
+    </header>
+    <div class="game-elements">
+      <div class="option">Rock</div>
+      <div class="option">Paper</div>
+      <div class="option">Scissors</div>
+      <button>play</button>
     </div>
-
-    <div class="result"> 
-        <div id="resultstring"></div>
-        <button id="result-button">result</button>
-    </div>
-    </main>
-
-    <footer></footer>
-    <script src="assets/js/index.js"></script>
-  </body>
- </html>
+  </div>
+</body>
+</html>
