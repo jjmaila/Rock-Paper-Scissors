@@ -76,16 +76,6 @@ p{
     flex-direction: column;
 }
 
-.button-container{
-    margin: auto;
-    padding: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    flex-direction: column;
-}
-
 .play{
     margin: auto;
     padding: 0%;
